@@ -1,4 +1,4 @@
-"""Use the LCD to display data."""
+"""Use the LCD to display data."""  # noqa: N999
 
 from __future__ import annotations
 

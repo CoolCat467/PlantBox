@@ -1,4 +1,4 @@
-"""PCF8574 as Raspberry GPIO."""
+"""PCF8574 as Raspberry GPIO."""  # noqa: N999
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ from smbus2 import SMBus
 bus = SMBus(1)
 
 
-class PCF8574_I2C:
+class PCF8574_I2C:  # noqa: N801
     """PCF8574 I2C interface."""
 
     OUTPUT = 0
@@ -68,7 +68,7 @@ def loop() -> None:
         time.sleep(1)
 
 
-class PCF8574_GPIO:
+class PCF8574_GPIO:  # noqa: N801
     """Standardization function interface."""
 
     __slots__ = ("chip", "address")
