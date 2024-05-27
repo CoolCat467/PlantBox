@@ -105,7 +105,7 @@ def loop() -> None:
             ##    print(f"Changing max_resistance to {voltage}")
             ##    max_resistance = float(voltage)
             ##if button_pressed != last_pressed:
-            ##    print(f"Changing montor state to {button_pressed}")
+            ##    print(f"Changing monitor state to {button_pressed}")
             ##    state = {True: GPIO.HIGH, False: GPIO.LOW}[button_pressed]
             ##    GPIO.output(MOTOR_PIN, state)     # Motor value
 

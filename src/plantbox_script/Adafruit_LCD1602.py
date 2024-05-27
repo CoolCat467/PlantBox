@@ -1,4 +1,4 @@
-"""Adafruit 1602 liquid crystal character display controller."""
+"""Adafruit 1602 liquid crystal character display controller."""  # noqa: N999
 
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ from time import sleep
 from typing import Any
 
 
-class Adafruit_CharLCD:
+class Adafruit_CharLCD:  # noqa: N801
     """Adafruit 1602 liquid crystal character display controller."""
 
     # commands
@@ -52,7 +52,7 @@ class Adafruit_CharLCD:
         pin_rs: int = 25,
         pin_e: int = 24,
         pins_db: list[int] | None = None,
-        GPIO: Any | None = None,
+        GPIO: Any | None = None,  # noqa: N803
     ) -> None:
         """Initialize driver."""
         if pins_db is None:
