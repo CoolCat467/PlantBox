@@ -1,8 +1,6 @@
 ci:
-  autofix_commit_msg: "[pre-commit.ci] auto fixes from pre-commit.com hooks"
   autofix_prs: true
-  autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
-  autoupdate_schedule: weekly
+  autoupdate_schedule: quarterly
   skip: [badgie]
   submodules: false
 
@@ -32,7 +30,7 @@ repos:
     hooks:
       - id: black
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.5.0
+    rev: v0.5.1
     hooks:
       - id: ruff
         types: [file]
