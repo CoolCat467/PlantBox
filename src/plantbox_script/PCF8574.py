@@ -71,7 +71,7 @@ def loop() -> None:
 class PCF8574_GPIO:  # noqa: N801
     """Standardization function interface."""
 
-    __slots__ = ("chip", "address")
+    __slots__ = ("address", "chip")
 
     OUT = 0
     IN = 1
